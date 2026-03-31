@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.walkout.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="26"
+8-->INJECTED
+9        android:targetSdkVersion="34" />
+9-->INJECTED
+10
+11    <!-- Required to read WiFi SSID name on Android 8.1+ -->
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:5:5-79
+12-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:7:5-76
+14-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:8:5-79
+15-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:9:5-66
+16-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:9:22-63
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:10:5-81
+17-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:11:5-77
+18-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:12:5-77
+19-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:12:22-74
+20    <!-- Required on Android 14+ for foreground services with location type -->
+21    <uses-permission
+21-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:14:5-16:38
+22        android:name="android.permission.FOREGROUND_SERVICE_LOCATION"
+22-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:15:9-70
+23        android:minSdkVersion="34" />
+23-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:16:9-35
+24
+25    <permission
+25-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.walkout.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.walkout.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:18:5-49:19
+32        android:allowBackup="true"
+32-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.12.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\30750a85727bc67d5cd8720c601fefc8\workspace\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+34        android:extractNativeLibs="false"
+34-->INJECTED
+35        android:icon="@mipmap/ic_launcher"
+35-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:20:9-43
+36        android:label="@string/app_name"
+36-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:21:9-41
+37        android:roundIcon="@mipmap/ic_launcher_round"
+37-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:22:9-54
+38        android:supportsRtl="true"
+38-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:23:9-35
+39        android:theme="@style/Theme.WalkOut" >
+39-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:24:9-45
+40        <activity
+40-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:26:9-33:20
+41            android:name="com.walkout.app.MainActivity"
+41-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:27:13-41
+42            android:exported="true" >
+42-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:28:13-36
+43            <intent-filter>
+43-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:29:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:30:17-69
+44-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:30:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:31:17-77
+46-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48        </activity>
+49
+50        <!-- foregroundServiceType="location" is needed to read WiFi SSID from a background service -->
+51        <service
+51-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:36:9-39:40
+52            android:name="com.walkout.app.WifiMonitorService"
+52-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:37:13-47
+53            android:exported="false"
+53-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:39:13-37
+54            android:foregroundServiceType="location" />
+54-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:38:13-53
+55
+56        <receiver
+56-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:41:9-47:20
+57            android:name="com.walkout.app.BootReceiver"
+57-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:42:13-41
+58            android:exported="true" >
+58-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:43:13-36
+59            <intent-filter>
+59-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:44:13-46:29
+60                <action android:name="android.intent.action.BOOT_COMPLETED" />
+60-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:45:17-79
+60-->C:\Users\maste\source\repos\WalkOut\app\src\main\AndroidManifest.xml:45:25-76
+61            </intent-filter>
+62        </receiver>
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.walkout.app.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\e89965aa3207e15a02edfe01f4de2c10\workspace\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\maste\.gradle\caches\9.3.1\transforms\01c26e469261bece587fc1f3af6c7fae\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\maste\.gradle\caches\9.3.1\transforms\01c26e469261bece587fc1f3af6c7fae\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\maste\.gradle\caches\9.3.1\transforms\01c26e469261bece587fc1f3af6c7fae\workspace\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <activity
+79-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\22d5368ebe13e148a5ac41cc593b9320\workspace\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+80            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+80-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\22d5368ebe13e148a5ac41cc593b9320\workspace\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+81            android:exported="false"
+81-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\22d5368ebe13e148a5ac41cc593b9320\workspace\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+82-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\22d5368ebe13e148a5ac41cc593b9320\workspace\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\0545f510814f8111d2430e2d47784e93\workspace\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\0545f510814f8111d2430e2d47784e93\workspace\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\0545f510814f8111d2430e2d47784e93\workspace\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+87
+88        <receiver
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+89            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+90            android:directBootAware="false"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+91            android:enabled="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+92            android:exported="true"
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+93            android:permission="android.permission.DUMP" >
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+95                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+96            </intent-filter>
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+98                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+99            </intent-filter>
+100            <intent-filter>
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+101                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+102            </intent-filter>
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+104                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\maste\.gradle\caches\9.3.1\transforms\95c65fb607b66cccefbf08ed3688cfb9\workspace\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+105            </intent-filter>
+106        </receiver>
+107    </application>
+108
+109</manifest>

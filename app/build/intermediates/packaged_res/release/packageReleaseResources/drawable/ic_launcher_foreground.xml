@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Simple walking figure / door icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,28 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M46,40 L62,40 L65,62 L57,62 L57,80 L51,80 L51,62 L43,62 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,62 L38,80 L44,80 L48,66 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,62 L70,80 L76,80 L71,66 Z" />
+</vector>

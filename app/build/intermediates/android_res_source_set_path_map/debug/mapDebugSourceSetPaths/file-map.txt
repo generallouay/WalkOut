@@ -1,0 +1,8 @@
+com.walkout.app-pngs-0 C:\Users\maste\source\repos\WalkOut\app\build\generated\res\pngs\debug
+com.walkout.app-resValues-1 C:\Users\maste\source\repos\WalkOut\app\build\generated\res\resValues\debug
+com.walkout.app-updated_navigation_xml-2 C:\Users\maste\source\repos\WalkOut\app\build\generated\updated_navigation_xml\debug
+com.walkout.app-packageDebugResources-3 C:\Users\maste\source\repos\WalkOut\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.walkout.app-packageDebugResources-4 C:\Users\maste\source\repos\WalkOut\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.walkout.app-debug-5 C:\Users\maste\source\repos\WalkOut\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.walkout.app-debug-6 C:\Users\maste\source\repos\WalkOut\app\src\debug\res
+com.walkout.app-main-7 C:\Users\maste\source\repos\WalkOut\app\src\main\res

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find '/c/Program Files/Android' -name keytool*)",
+      "Bash(/dev/null ls:*)",
+      "Bash(\"/c/Program Files/Android/jdk/jdk-8.0.302.8-hotspot/jdk8u302-b08/bin/keytool.exe\" \\\\\n  -genkey -v \\\\\n  -keystore \"/c/Users/maste/source/repos/WalkOut/walkout-release.jks\" \\\\\n  -keyalg RSA -keysize 2048 -validity 10000 \\\\\n  -alias walkout \\\\\n  -storepass walkout123 -keypass walkout123 \\\\\n  -dname \"CN=WalkOut, OU=App, O=Personal, L=Home, S=Home, C=NL\")",
+      "Bash(./gradlew assembleRelease 2>&1)",
+      "Bash(ls /c/Users/maste/source/repos/WalkOut/*.bat)",
+      "Bash(ls /c/Users/maste/source/repos/WalkOut/gradlew*)",
+      "Bash(\\\\\n  \"/c/Users/maste/.gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/bin/gradle\" wrapper 2>&1)",
+      "Bash(export JAVA_HOME=\"/c/Program Files/Android/jdk/jdk-8.0.302.8-hotspot/jdk8u302-b08\")",
+      "Bash(export PATH=\"$JAVA_HOME/bin:$PATH\")",
+      "Bash(\"/c/Users/maste/.gradle/wrapper/dists/gradle-8.13-bin/5xuhj0ry160q40clulazy9h7d/gradle-8.13/bin/gradle\" wrapper:*)"
+    ]
+  }
+}

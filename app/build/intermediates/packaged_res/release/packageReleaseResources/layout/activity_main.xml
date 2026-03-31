@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WalkOut"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrate and notify when you leave home WiFi"
+            android:textSize="14sp"
+            android:textColor="@color/secondary_text"
+            android:layout_marginBottom="36dp" />
+
+        <!-- Notification message -->
+        <TextView
+            style="@style/LabelText"
+            android:text="Notification message" />
+
+        <EditText
+            android:id="@+id/etNotifText"
+            style="@style/InputField"
+            android:hint="e.g. Don't forget your keys!"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Home WiFi -->
+        <TextView
+            style="@style/LabelText"
+            android:text="Home WiFi network" />
+
+        <TextView
+            android:id="@+id/tvSsidStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap below while connected to home WiFi"
+            android:textSize="13sp"
+            android:textColor="@color/secondary_text"
+            android:padding="14dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSetWifi"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Use Current WiFi"
+            android:backgroundTint="@color/surface"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Home WiFi 2 (extender) -->
+        <TextView
+            style="@style/LabelText"
+            android:text="Extender network (optional)" />
+
+        <TextView
+            android:id="@+id/tvSsidStatus2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tap below while on extender (optional)"
+            android:textSize="13sp"
+            android:textColor="@color/secondary_text"
+            android:padding="14dp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnSetWifi2"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Use Current WiFi"
+            android:backgroundTint="@color/surface"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="36dp" />
+
+        <!-- Save -->
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save &amp; Activate"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primary"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvServiceStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: Inactive"
+            android:textSize="13sp"
+            android:textColor="@color/secondary_text"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

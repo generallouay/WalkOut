@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.walkout.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.walkout.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-debug-33:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\maste\\.gradle\\daemon\\9.3.1\\com.walkout.app-main-35:\\layout\\activity_main.xml"
+    }
+]

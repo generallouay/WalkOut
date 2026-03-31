@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color active_green
+color background
+color ic_launcher_background
+color label
+color primary
+color secondary_text
+color surface
+drawable ic_launcher_foreground
+drawable ic_notification
+drawable input_background
+id btnSave
+id btnSetWifi
+id btnSetWifi2
+id btnTest
+id etNotifText
+id tvServiceStatus
+id tvSsidStatus
+id tvSsidStatus2
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style InputField
+style LabelText
+style Theme.WalkOut
